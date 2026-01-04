@@ -104,3 +104,14 @@ Grids with insufficient valid transportation indicators may yield unstable ML be
 - **MQ dataset (4293 grids)** can be used for:
   - sensitivity tests of QC strictness
   - robustness / coverage tradeoff studies
+  
+  ---
+  
+## OpenStreetMap Extraction
+
+All OSM-derived features were extracted using the Overpass API on:
+
+📅 **January 3rd, 2026**
+
+Because OpenStreetMap is continuously updated, OSM-derived features may differ if re-extracted at a later date.  
+For strict reproducibility, users are encouraged to use the released dataset version rather than re-running the OSM extraction pipeline without controlling for OSM snapshot timing.
